@@ -1,0 +1,19 @@
+{
+    "buttons": [
+        {
+            "title": "Photography",
+            "cta": "/photography",
+            "colour": "green"
+        },
+        {
+            "title": "Creative Writing",
+            "cta": "/writing",
+            "colour": "yellow"
+        },
+        {
+            "title": "Dance",
+            "cta": "/dance",
+            "colour": "purple"
+        }
+    ]
+}

@@ -6,6 +6,7 @@ import {
 import { MenuBar } from "../components/Menu/Menu"
 import { Title } from "../components/Heading/Heading"
 import { ImageDisplay as Image } from "../components/Image/Image"
+import { ButtonList as Buttons } from "../components/Button/Button"
 
 interface LandingProps {
     title: String;
@@ -38,6 +39,7 @@ export const Landing: React.FC<LandingProps> = ({...props}) => {
                     </Text>
                 </Box>
             </Box>  
+            <Buttons />
         </Box>
     )
 }
